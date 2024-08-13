@@ -109,7 +109,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               MaterialButton(
                 onPressed: () {
-                 Get.offNamed(AppRoutes.otp);
+                  controller.logIn();
                 },
                 color: AppColors.primaryColor,
                 height: 60,

@@ -13,6 +13,8 @@ abstract class BaseLanguage {
   String get lblLoginAcc;
   String get lblAlreadyAcc;
   String get lblFullName;
+  String get lblFirstName;
+  String get lblLastName;
   String get lblDOB;
   String get lblEmail;
   String get lblPhone;
@@ -40,6 +42,9 @@ abstract class BaseLanguage {
   String get lblBooking;
   String get lblSearch;
   String get lblProfile;
+  String get lblAgree;
+  String get lblTermsConditions;
+  String get lblLocationPermission;
 
 
   String get msgPleasEnter;

@@ -1,18 +1,17 @@
 import 'package:airline_app/common/widgets/cached_network_image.dart';
 import 'package:airline_app/main.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 
 import '../../util/helpers/colors.dart';
-import '../../util/helpers/images.dart';
 import '../../util/routes/routes.dart';
 
 class CommonCard extends StatelessWidget {
   final imagePath;
   final offerText;
-  const CommonCard({super.key, required this.imagePath, required this.offerText});
+
+  const CommonCard(
+      {super.key, required this.imagePath, required this.offerText});
 
   @override
   Widget build(BuildContext context) {
@@ -21,9 +20,9 @@ class CommonCard extends StatelessWidget {
         Stack(
           children: [
             cached_network_image(
-                image: ' ',
-                fit: BoxFit.fill,
-                tempImage: imagePath,
+              image: ' ',
+              fit: BoxFit.fill,
+              tempImage: imagePath,
             ),
             // Image.asset(
             //   imagePath,
@@ -35,7 +34,7 @@ class CommonCard extends StatelessWidget {
               right: 10,
               top: 10,
               child: Container(
-                color:AppColors.offerCardPrimaryColor,
+                color: AppColors.offerCardPrimaryColor,
                 height: 22,
                 padding: EdgeInsets.symmetric(horizontal: 10),
                 child: Center(
@@ -56,7 +55,7 @@ class CommonCard extends StatelessWidget {
         ),
         Container(
           height: 68,
-          width: Get.width/1.03,
+          width: Get.width / 1.03,
           decoration: BoxDecoration(
             color: Colors.white,
             borderRadius: BorderRadius.zero,
@@ -73,22 +72,31 @@ class CommonCard extends StatelessWidget {
                     Text(
                       "New York to Los Angeles",
                       textScaleFactor: 1,
-                      style: TextStyle(fontFamily: 'Manrope-Regular',fontSize: 16, color: Colors.black, fontWeight: FontWeight.w600),
-
+                      style: TextStyle(
+                          fontFamily: 'Manrope-Regular',
+                          fontSize: 16,
+                          color: Colors.black,
+                          fontWeight: FontWeight.w600),
                     ),
                     Row(
                       children: [
                         Text(
                           "Luxury flights starting at",
                           textScaleFactor: 1,
-                          style: TextStyle(fontFamily: 'Manrope-Regular', fontSize: 12, color: AppColors.lblSecondaryColor, fontWeight: FontWeight.w500),
-
+                          style: TextStyle(
+                              fontFamily: 'Manrope-Regular',
+                              fontSize: 12,
+                              color: AppColors.lblSecondaryColor,
+                              fontWeight: FontWeight.w500),
                         ),
                         Text(
                           "\$12,000",
                           textScaleFactor: 1,
-                          style: TextStyle(fontFamily: 'Manrope-Regular', fontSize: 14, color: AppColors.lblSecondaryColor, fontWeight: FontWeight.w500),
-
+                          style: TextStyle(
+                              fontFamily: 'Manrope-Regular',
+                              fontSize: 14,
+                              color: AppColors.lblSecondaryColor,
+                              fontWeight: FontWeight.w500),
                         ),
                       ],
                     ),

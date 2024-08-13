@@ -1,9 +1,6 @@
-import 'package:airline_app/main.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import '../../../util/helpers/colors.dart';
 import '../controller/home_controller.dart';
 
 class CarouselBar extends StatefulWidget {

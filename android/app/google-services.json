@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "196564787648",
+    "project_id": "aerify-b4cfd",
+    "storage_bucket": "aerify-b4cfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196564787648:android:6868dd15c7b1ba8cdca825",
+        "android_client_info": {
+          "package_name": "com.techpanda.aerify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm8urD1jRnFXTeWNWLI6SgyZ0t8N4GSks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -35,7 +35,15 @@ class LanguagesEn extends BaseLanguage {
 
   @override
   // TODO: implement lblFullName
-  String get lblFullName => 'Full Name';
+  String get lblFullName => 'Full name';
+
+  @override
+  // TODO: implement lblFullName
+  String get lblFirstName => 'First Name';
+
+  @override
+  // TODO: implement lblLastName
+  String get lblLastName => 'Last Name';
 
   @override
   // TODO: implement lblDOB
@@ -144,6 +152,18 @@ class LanguagesEn extends BaseLanguage {
   @override
   // TODO: implement lblProfile
   String get lblProfile => 'Profile';
+
+  @override
+  // TODO: implement lblagree
+  String get lblAgree => 'I Agree With ';
+
+  @override
+  // TODO: implement lbltermsConditions
+  String get lblTermsConditions => 'Terms & Conditions.';
+
+  @override
+  // TODO: implement lblLocationPermission
+  String get lblLocationPermission => 'Location Permission';
 
   @override
   // TODO: implement msgPleasEnter
